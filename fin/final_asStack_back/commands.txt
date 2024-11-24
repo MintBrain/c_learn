@@ -1,0 +1,61 @@
+iread
+iread
+push 10
+iadd
+iadd
+push 11
+pop
+push 12
+push 13
+swap
+dup
+imul
+isub
+iprint
+iprint
+push 5
+push 10
+idiv
+iprint
+push 5
+push 10
+imod
+iprint
+push 20
+ineg
+iprint
+push 5
+push 10
+icmp
+iprint
+stop
+
+
+>10
+>10
+10
+
+20
+30
+
+11 30
+30
+
+13 12 30
+12 13 30
+12 12 13 30
+144 13 30
+>131 30
+>30
+
+10 5
+>2
+
+10 5
+>0
+
+20
+>-20
+
+10 5
+>1

@@ -1,0 +1,82 @@
+LD 10
+ADD 10
+JMP label
+ST
+
+label:
+ST
+LD 10
+MUL 11
+ST
+RET
+
+------------------------------
+
+
+LD 10
+ST
+LDN 5                    
+STN
+
+ADD 20
+SUB 8
+MUL 4
+DIV 2
+AND 0
+ST
+
+OR 1
+ST
+XOR 1
+ST
+
+NOT
+ST
+
+GT 15
+ST
+
+GE 10
+ST
+
+EQ 8
+ST
+
+NE 3
+ST
+
+LE 5
+ST
+
+LT 2
+ST
+
+JMP Label1
+JMPC Label2
+JMPCN Label3
+
+Label1:
+ST
+Label2:
+ST
+Label3:
+ST
+RET
+
+10
+5
+0
+1
+0
+1
+0
+0
+0
+1
+1
+1
+1
+1
+1
+
+
